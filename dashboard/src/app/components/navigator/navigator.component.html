@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="side">
+        <div class="side-menu" [@sideMenu]>
+            <div class="menu-item">
+                <p class="main-menu"> Menu Details</p>
+            </div>
+            <div class="menu-item" (click)="navigateToRoute(item)" *ngFor="let item of navigationMenus; let i = index">
+                {{item}}
+            </div>
+        </div>
+    </div>
+    <div class="component">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+

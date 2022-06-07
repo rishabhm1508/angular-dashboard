@@ -1,0 +1,24 @@
+.no-data{
+    color:red;
+    margin-top:1%
+}
+
+.filter-input {
+    &-container{
+        margin: 1% 1% 1% 1px;;
+    }
+    padding: 1%;
+    width: 50%;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.heading{
+    font-size: x-large;
+    font-weight: bold;
+    color: #456894;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}

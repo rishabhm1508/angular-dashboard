@@ -1,0 +1,27 @@
+.color-div {
+    border-radius: 5px;
+}
+
+.input {
+    margin: 2% 1%;
+    padding: 11px;
+    width: 50%;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.div-text{
+    margin: 1% 0 0 1%;
+}
+
+.heading-input {
+    &-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    padding: 2%;
+    font-size: x-large;
+    font-weight: bold;
+    color: #456894;
+}

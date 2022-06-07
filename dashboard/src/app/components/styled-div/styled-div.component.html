@@ -1,0 +1,13 @@
+<div>
+    <div class="heading-input-container">
+        <p class="heading-input">Styled Div Component</p>
+    </div>
+
+    <div class="color-div" [appColorBorder]="borderColor">
+        <label class="div-text">
+            The border color of this div is now {{borderColor}}, please change color by changing input:
+        </label>
+        <input class="input" (change)="changeColor($event)" placeholder="Enter color of border you want..." type="text"
+        value="black">
+    </div>
+</div>

@@ -1,0 +1,41 @@
+
+
+.side-menu {
+    height: 100vh;
+    background: #456894;
+}
+
+.menu-item {
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #dcdcdc;
+    width: 100%;
+    cursor: pointer;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    &:hover {
+        color: #c1c1c1;
+    }
+}
+
+.main-menu {
+    font-size: large;
+    font-weight: bold;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.side{
+    width: 20%;
+}
+
+.component {
+    width: 80%;
+    padding: 0px 3px;
+}
