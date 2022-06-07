@@ -1,4 +1,4 @@
-# angular-dashboard
+# Anngular Dashboard
 Dashboard With Angular Animaiton
 
 # Running the application
